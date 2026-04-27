@@ -32,19 +32,19 @@
                             <legend>add a new GeoTag</legend>
                               <fieldset>
                                  <label id="Lat">Latitude</label>
-                                 <input type="text" id="LatIn" size="1" placeholder="49.062"/>
+                                 <input type="text" id="LatIn" size="1" placeholder="49.062" readonly/>
                               </fieldset>
                               <fieldset>
                                  <label id="Lon">Longitude</label>
-                                 <input type="text" id="LongIn" size="1" placeholder="68.069">
+                                 <input type="text" id="LongIn" size="1" placeholder="68.069" readonly>
                               </fieldset>
                               <fieldset>
                                 <label id="lon">Name</label>
-                                <input type=text id="NameIn" size="1" placeholder="eg Central Berlin">
+                                <input type=text id="NameIn" size="1" placeholder="eg Central Berlin" required maxlength="10">
                               </fieldset>
                               <fieldset>
                                 <label id="has">Hashtag</label>
-                                <input type="text" id="HasIn" size="1" placeholder="e.g #Ber">
+                                <input type="text" id="HasIn" size="1" placeholder="e.g #Ber" pattern="#.*" maxlength="10">
                               </fieldset>
                           
                         </fieldset>
